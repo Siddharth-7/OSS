@@ -23,3 +23,6 @@ def mutate(d):  # sourcery skip: aug-assign, while-to-for
             ret.append(cop[:i] + x + cop[i:])
         i = i + 1
     return ret
+
+
+print(mutate("sid"))
